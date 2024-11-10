@@ -134,7 +134,7 @@ public class KonversiSuhu extends javax.swing.JFrame {
         // TODO add your handling code here:
         double celsius = Double.parseDouble(textSuhu.getText());
         double fahrenheit = celsius * 1.8 + 32;
-        Fa
+        FahrenheitLabel.setText(fahrenheit+"Fahrenheit");
     }//GEN-LAST:event_btnKonversiMouseClicked
 
     private void btnKonversiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKonversiActionPerformed
